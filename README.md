@@ -22,16 +22,21 @@ The overaching aim of this project is to *open up* microfluidic experimentation,
 
 * Our [open source FPGA controll](https://github.com/wenzel-lab/droplet-sorting-FPGA-controller/tree/master)
 * The microfluidic chip is positioned with an [open source SQUID microscopy stage](https://github.com/wenzel-lab/squid-motorized-stage).
-
-![our squid set-up Oct 2023](images/squid-droplet-cytometer.png)
+<p align="center">
+<img src="./images/squid-droplet-cytometer.png" height="400">
+</p>
   
 * And our [otptical detection arm assembly](https://github.com/wenzel-lab/droplet-cytometry-optomechanics/tree/main) is based on the [Open-UC2 3d printed optics cubes](https://github.com/openUC2/UC2-GIT). The modified and new Open-UC2 compatible cubes can be found in the STL folder of this repository, and all modifyable design files are openly availble in the cloud [here on OnShape](https://tinyurl.com/WenzelLabUC2), where you can view, export and copy (to modify) the project designs.
+<p align="center">
+<img src="./images/laser_setup_droplet_sorting5.png" height="400">
+</p>
 
-![optics schematic of the set-up](images/laser_setup_droplet_sorting5.png)
+* Droplets are moved using our [microfludidics controller](https://github.com/wenzel-lab/modular-microfluidics-workstation-controller)
 
 * The project has many other components, some of which are not yet documented:
-  
-![Mindmap of project parts](images/project_parts.png)
+<p align="center">
+<img src="./images/project_parts.png" height="400">
+</p>
 
 
 ## Contribute
