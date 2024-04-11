@@ -17,7 +17,10 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
 
 ## Repositories of this project
 
+* The [Graphical User Interface (GUI)](https://github.com/wenzel-lab/droplet-sorter-GUI) of the droplet sorter
+
 * Our [open source FPGA controll](https://github.com/wenzel-lab/droplet-sorting-FPGA-controller/tree/master)
+  
 * The microfluidic chip is positioned with an [open source SQUID microscopy stage](https://github.com/wenzel-lab/squid-motorized-stage).
 <p align="left">
 <img src="./images/squid-droplet-cytometer.png" width="500">
