@@ -21,7 +21,7 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
 
 * Our [open source FPGA controll](https://github.com/wenzel-lab/droplet-sorting-FPGA-controller/tree/master)
   
-* The microfluidic chip is positioned with an [open source SQUID microscopy stage](https://github.com/wenzel-lab/squid-motorized-stage).
+* The microfluidic chip is positioned with an [open source SQUID microscopy stage](https://github.com/wenzel-lab/squid-motorized-stage), with it's own [stage controller software](https://github.com/wenzel-lab/droplet-sorter-stage-software), of course written in python.
 <p align="left">
 <img src="./images/squid-droplet-cytometer2.jpg" width="500">
 </p>
