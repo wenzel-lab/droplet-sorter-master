@@ -18,9 +18,9 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
 
 ## Repositories of this project
 
-* The [Graphical User Interface (GUI)](https://github.com/wenzel-lab/droplet-sorter-GUI) of the droplet sorter
+* [Piccolo](https://github.com/wenzel-lab/droplet-sorter-GUI) the Graphical User Interface (GUI) of the droplet sorter
 
-* Our [open source FPGA controll](https://github.com/wenzel-lab/droplet-sorting-FPGA-controller/tree/master)
+* Our [RITMO conductor](https://github.com/wenzel-lab/droplet-sorting-FPGA-controller/tree/master), our FPGA-powered and Python-based open source workstation controller, built on (PyRPL)[https://github.com/lneuhaus/pyrpl]
   
 * The microfluidic chip is positioned with an [open source SQUID microscopy stage](https://github.com/wenzel-lab/squid-motorized-stage), with it's own [stage controller software](https://github.com/wenzel-lab/droplet-sorter-stage-software), of course written in python. In the image on the right, you can see in blue all the pieces in the assembly that are 3d printed.
 <p align="left">
@@ -34,7 +34,10 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
 <img src="./images/filter_cubes.jpg" width="500">
 </p>
 
-* Droplets are moved using our [microfludidics controller](https://github.com/wenzel-lab/modular-microfluidics-workstation-controller)
+* Droplets are moved using our [microfluidics controller](https://github.com/wenzel-lab/modular-microfluidics-workstation-controller)
+<p align="left">
+<img src="./images/sorting-chip.jpg" width="500">
+</p>
 
 * The project has many other components, some of which are not yet documented:
 <p align="left">
