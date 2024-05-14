@@ -36,7 +36,7 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
 
 * Droplets are moved using our [microfluidics controller](https://github.com/wenzel-lab/modular-microfluidics-workstation-controller)
 <p align="left">
-<img src="./images/sorting-chip.jpg" width="500">
+<img src="./images/sorting-chip.jpg" width="400">
 </p>
 
 * The project has many other components, some of which are not yet documented:
