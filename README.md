@@ -24,8 +24,8 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
   
 * The microfluidic chip is positioned with an [open source SQUID microscopy stage](https://github.com/wenzel-lab/squid-motorized-stage), with it's own [stage controller software](https://github.com/wenzel-lab/droplet-sorter-stage-software), of course written in python. In the image on the right, you can see in blue all the pieces in the assembly that are 3d printed.
 <p align="left">
-<img src="./images/squid-droplet-cytometer2.jpg" height="500">
-<img src="./images/squid-droplet-cytometer3.jpg" height="500">
+<img src="./images/squid-droplet-cytometer5.jpg" height="500">
+<img src="./images/squid-droplet-cytometer4.jpg" height="500">
 </p>
 
 * And our [otptical detection arm assembly](https://github.com/wenzel-lab/droplet-sorter-optomechanics) is based on the [Open-UC2 3d printed optics cubes](https://github.com/openUC2/UC2-GIT). The modified and new Open-UC2 compatible cubes can be found in the STL folder of this repository, and all modifyable design files are openly availble in the cloud [here on OnShape](https://tinyurl.com/WenzelLabUC2), where you can view, export and copy (to modify) the project designs.
