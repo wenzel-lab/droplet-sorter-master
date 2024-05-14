@@ -10,7 +10,7 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
 * The original [droplet sorting publication (2009)](https://doi.org/10.1039/b902504a) using electrical droplet actuacion and fluorescence detection.
 * A review of [active droplet sorting methods (2017)](https://doi.org/10.1039/c6lc01435f ), inclduing alternatives to the dielectrophoresis used here.
 * A review of [advances on sorting and detection methods (2021)](https://doi.org/10.3389/fchem.2021.666867) in the context of directed enzyme evolution.
-* And a [detailed protocol (2023)](https://doi.org/10.1038/s41596-022-00796-2) of how to assemble a current state-of-the-art droplet sorting set-up as it exsists in several research labs around the world (estimated parts costs 200.000 USD).
+* And a [detailed protocol (2023)](https://doi.org/10.1038/s41596-022-00796-2) of how to assemble a current state-of-the-art droplet sorting set-up as it exsists in several research labs around the world (estimated parts costs 200.000 USD for a more basic version than the 3-laser, 6-detector multichannel design in this repository).
 * Since recently, there are also commercial solutions available (for a significantly higher cost and non-modyfiable, but convenient to buy and use), especially the [Styx](https://atrandi.com/styx), [Pico-Mine](https://spherefluidics.com/our-products/platform-products/cyto-mine/), [On-Chip Sort](https://on-chipbio.com/#link02).
 <p align="left">
 <img src="./images/dropletsorting.jpg" width="500">
