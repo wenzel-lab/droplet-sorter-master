@@ -39,6 +39,8 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
 <img src="./images/sorting-chip.jpg" width="400">
 </p>
 
+* The [high voltage sorting pulse generation board](https://github.com/wenzel-lab/high-voltage-pulse-generator/)
+
 * The project has many other components, some of which are not yet documented:
 <p align="left">
 <img src="./images/project_parts.png" width="500">
