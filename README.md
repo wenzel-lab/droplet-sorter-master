@@ -16,7 +16,7 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
 <img src="./images/dropletsorting.jpg" width="500">
 </p>
 
-## Repositories of this project
+## Components of this project
 
 * [Piccolo](https://github.com/wenzel-lab/droplet-sorter-GUI) the Graphical User Interface (GUI) of the droplet sorter
 
@@ -28,7 +28,7 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
 <img src="./images/squid-droplet-cytometer4.jpg" height="500">
 </p>
 
-* And our [otptical detection arm assembly](https://github.com/wenzel-lab/droplet-sorter-optomechanics) is based on the [Open-UC2 3d printed optics cubes](https://github.com/openUC2/UC2-GIT). The modified and new Open-UC2 compatible cubes can be found in the STL folder of this repository, and all modifyable design files are openly availble in the cloud [here on OnShape](https://tinyurl.com/WenzelLabUC2), where you can view, export and copy (to modify) the project designs.
+* And our otptical detection arm assembly is based on the [Open-UC2 3d printed optics cubes](https://github.com/openUC2/UC2-GIT). The modified and new Open-UC2 compatible cubes can be found in the STL folder of this repository, and all modifyable design files are openly availble in the cloud [here on OnShape](https://tinyurl.com/WenzelLabUC2), where you can view, export and copy (to modify) the project designs.
 <p align="left">
 <img src="./images/laser_set-up_V6.jpg" width="500">
 <img src="./images/filter_cubes.jpg" width="500">
