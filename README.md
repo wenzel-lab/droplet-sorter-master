@@ -21,7 +21,12 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
 * [Piccolo](https://github.com/wenzel-lab/droplet-sorter-GUI) the Graphical User Interface (GUI) of the droplet sorter
 
 * Our [Ritmos Conductor](https://github.com/wenzel-lab/droplet-sorting-FPGA-controller/tree/master), our FPGA-powered and Python-based open source workstation controller, built on (PyRPL)[https://github.com/lneuhaus/pyrpl]
-  
+
+* Our current implementation uses a [custom multiplexer board](https://github.com/wenzel-lab/droplet-sorter-master/tree/main/multiplexer-board) to expand the two fast analogue imputs (for the use of two detectors) of the RedPitaya computer and FPG board to the use of six channels by multiplexing one of the analoguse imputs. The board also replicates the pins of the RedPitaya board for additional interfaces, for example with our pulse generator (see below). A future version implementation of the sorting controll is the making, where we use the RedPitaya X-channel system to add pairs of analogue inputs (and therefore detector inputs) to the capability of the stack, which is faster and more expandable.
+<p align="left">
+<img src=".multiplexer-board/images/mux_brd_icon.jpg" width="400">
+</p>
+
 * The microfluidic chip is positioned with an [open source SQUID microscopy stage](https://github.com/wenzel-lab/squid-motorized-stage), with it's own [stage controller software](https://github.com/wenzel-lab/droplet-sorter-stage-software), of course written in python. In the image on the right, you can see in blue all the pieces in the assembly that are 3d printed.
 <p align="left">
 <img src="./images/squid-droplet-cytometer5.jpg" height="500">
@@ -41,10 +46,7 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
 
 * The [high voltage sorting pulse generation board](https://github.com/wenzel-lab/high-voltage-pulse-generator/)
 
-* The project has many other components, some of which are not yet documented:
-<p align="left">
-<img src="./images/project_parts.png" width="500">
-</p>
+
 
 ## Commercial and OEM components
 
