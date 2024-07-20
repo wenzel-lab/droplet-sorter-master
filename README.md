@@ -46,7 +46,17 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
 <img src="./images/project_parts.png" width="500">
 </p>
 
+## Commercial and OEM components
+
+For our implementation, we use a [compact OEM low-noise 3-laser module with eliptical beam forming](https://github.com/wenzel-lab/droplet-sorter-master/blob/main/docs/Laser_spec_PEC-410%20800049%20LRBV-FS-118%20Specification%20V01%20211012.pdf), to illuminate the sorting channel from above, so that we can also detect a lable-free side scattering signal in the detection arm.
+
+We use the [MER2-160-227U3M-L camera](https://github.com/wenzel-lab/droplet-sorter-master/blob/main/docs/MER2-160-227U3MC(-L)-Datasheet%20mono%20high%20speed.pdf), a compact monochrome USB3 camera with the Sony IMX273 CMOS sensor, for fast framerate and triggering for strobe-illumination.
+
+We also use modern [SiPM detectors from KETEK](https://github.com/wenzel-lab/droplet-sorter-master/blob/main/docs/KETEK-PE3315-WL-TIA-SP.pdf) that are both lower in cost and higher in performance compared to traditionally used PMT modules (lower dark noise, broader sensitive range, and they don't break when illuminated accidentally), but unfortunately the producer KETEK was recently purchased by Broadcom and they have discontinued this line of products, which means that currently more expensive competitor producs (be it PMTs, SiPMs or APDs) have to be used for new implementations of the sorter. In the end, the detector module types makes no difference for the assembly of the sorter, because it is agnostic to what module passes the voltage signal to the FPGA-board inputs.
+
 ## Optical filters used:
+
+Please [handle optical filters with care](https://github.com/wenzel-lab/droplet-sorter-master/blob/main/docs/Handling%20of%20optical%20filters.pdf)!
 
 | Filter | Type | supplier |
 | :---   | :---  | :--- |
