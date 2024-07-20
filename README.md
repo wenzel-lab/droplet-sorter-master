@@ -24,7 +24,7 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
 
 * Our current implementation uses a [custom multiplexer board](https://github.com/wenzel-lab/droplet-sorter-master/tree/main/multiplexer-board) to expand the two fast analogue imputs (for the use of two detectors) of the RedPitaya computer and FPG board to the use of six channels by multiplexing one of the analoguse imputs. The board also replicates the pins of the RedPitaya board for additional interfaces, for example with our pulse generator (see below). A future version implementation of the sorting controll is the making, where we use the RedPitaya X-channel system to add pairs of analogue inputs (and therefore detector inputs) to the capability of the stack, which is faster and more expandable.
 <p align="left">
-<img src=".multiplexer-board/images/mux_brd_icon.jpg" width="400">
+<img src="./multiplexer-board/images/mux_brd_icon.jpg" width="400">
 </p>
 
 * The microfluidic chip is positioned with an [open source SQUID microscopy stage](https://github.com/wenzel-lab/squid-motorized-stage), with it's own [stage controller software](https://github.com/wenzel-lab/droplet-sorter-stage-software), of course written in python. In the image on the right, you can see in blue all the pieces in the assembly that are 3d printed.
