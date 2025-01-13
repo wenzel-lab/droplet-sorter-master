@@ -6,7 +6,7 @@ Follow us! [#twitter](https://twitter.com/WenzelLab), [#YouTube](https://www.you
 
 ## Components of this project
 
-* FPGA-powered and Python-based open source workstation controller [Ritmos Conductor](https://github.com/wenzel-lab/droplet-sorting-FPGA-controller/tree/master), built on a stripped-down version of (PyRPL)[https://github.com/wenzel-lab/pyrpl/tree/c5a0c5485e680da44bf5c888803966dd02ea83bb], designed to run on a Red Pitaya single board computer.
+* FPGA-powered and Python-based open source workstation controller [Ritmos Conductor](https://github.com/wenzel-lab/droplet-sorting-FPGA-controller/tree/master), built on a stripped-down version of [PyRPL](https://github.com/wenzel-lab/pyrpl), designed to run on a Red Pitaya single board computer.
 
 * Graphical User Interface (GUI) [Piccolo](https://github.com/wenzel-lab/droplet-sorter-GUI) of the droplet sorter, designed with Bokeh (Python) to run on an independent computer. It uncludes a WebSocket webserver that communicates with the RedPitaya board.
 
