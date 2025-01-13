@@ -8,7 +8,7 @@ Follow us! [#twitter](https://twitter.com/WenzelLab), [#YouTube](https://www.you
 
 * FPGA-powered and Python-based open source workstation controller [Ritmos Conductor](https://github.com/wenzel-lab/droplet-sorting-FPGA-controller/tree/master), built on a stripped-down version of [PyRPL](https://github.com/wenzel-lab/pyrpl), designed to run on a Red Pitaya single board computer.
 
-* Graphical User Interface (GUI) [Piccolo](https://github.com/wenzel-lab/droplet-sorter-GUI) of the droplet sorter, designed with Bokeh (Python) to run on an independent computer. It uncludes a WebSocket webserver that communicates with the RedPitaya board.
+* [Graphical User Interface (GUI)](https://github.com/wenzel-lab/droplet-sorter-GUI) of the droplet sorter, designed with Bokeh (Python) to run on an independent computer. It uncludes a WebSocket webserver that communicates with the RedPitaya board.
 
 * [Robotic positioning stage](https://github.com/wenzel-lab/squid-motorized-stage) for microfluidic sorting chips, with it's own [stage controller software](https://github.com/wenzel-lab/droplet-sorter-stage-software), of course written in python. The optoelectronic assembly is highly based on digital fabriaction, especially 3d printing, to increase accessibility and modifiability.
 
