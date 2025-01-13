@@ -4,6 +4,21 @@ Welcome to the main repository where we maintain the different documentation par
 
 Follow us! [#twitter](https://twitter.com/WenzelLab), [#YouTube](https://www.youtube.com/@librehub), [#LinkedIn](https://www.linkedin.com/company/92802424), [#instagram](https://www.instagram.com/wenzellab/), [#Printables](https://www.printables.com/@WenzelLab), [#LIBREhub website](https://librehub.github.io), [#IIBM website](https://ingenieriabiologicaymedica.uc.cl/en/people/faculty/821-tobias-wenzel)
 
+## Components of this project
+
+* FPGA-powered and Python-based open source workstation controller [Ritmos Conductor](https://github.com/wenzel-lab/droplet-sorting-FPGA-controller/tree/master), built on a stripped-down version of (PyRPL)[https://github.com/wenzel-lab/pyrpl/tree/c5a0c5485e680da44bf5c888803966dd02ea83bb], designed to run on a Red Pitaya single board computer.
+
+* Graphical User Interface (GUI) [Piccolo](https://github.com/wenzel-lab/droplet-sorter-GUI) of the droplet sorter, designed with Bokeh (Python) to run on an independent computer. It uncludes a WebSocket webserver that communicates with the RedPitaya board.
+
+* [Robotic positioning stage](https://github.com/wenzel-lab/squid-motorized-stage) for microfluidic sorting chips, with it's own [stage controller software](https://github.com/wenzel-lab/droplet-sorter-stage-software), of course written in python. The optoelectronic assembly is highly based on digital fabriaction, especially 3d printing, to increase accessibility and modifiability.
+
+* [Custom multiplexer board](https://github.com/wenzel-lab/droplet-sorter-master/tree/main/multiplexer-board) to expand the two fast analogue detector inputs of the RedPitaya computer to six channels by multiplexing, as well as communication with the pulse generation board and detector bias voltages.
+
+* [High voltage sorting pulse generation board](https://github.com/wenzel-lab/high-voltage-pulse-generator/)
+
+* [Open source microfluidic flow controller](https://github.com/wenzel-lab/modular-microfluidics-workstation-controller)
+  
+
 ## Background - sorting of microfluidic droplets
 
 If you are wondering what the sorting of microfluidic droplets is, we reccomend the following litertature:
@@ -16,37 +31,29 @@ If you are wondering what the sorting of microfluidic droplets is, we reccomend 
 <img src="./images/dropletsorting.jpg" width="500">
 </p>
 
-## Components of this project
+## Preview of the components 
 
-* [Piccolo](https://github.com/wenzel-lab/droplet-sorter-GUI) the Graphical User Interface (GUI) of the droplet sorter
-
-* Our [Ritmos Conductor](https://github.com/wenzel-lab/droplet-sorting-FPGA-controller/tree/master), our FPGA-powered and Python-based open source workstation controller, built on (PyRPL)[https://github.com/lneuhaus/pyrpl]
-
-* Our current implementation uses a [custom multiplexer board](https://github.com/wenzel-lab/droplet-sorter-master/tree/main/multiplexer-board) to expand the two fast analogue imputs (for the use of two detectors) of the RedPitaya computer and FPG board to the use of six channels by multiplexing one of the analoguse imputs. The board also replicates the pins of the RedPitaya board for additional interfaces, for example with our pulse generator (see below). A future version implementation of the sorting controll is the making, where we use the RedPitaya X-channel system to add pairs of analogue inputs (and therefore detector inputs) to the capability of the stack, which is faster and more expandable.
+Our current sorter implementation uses a [custom multiplexer board](https://github.com/wenzel-lab/droplet-sorter-master/tree/main/multiplexer-board) to expand the two fast analogue imputs (for the use of two detectors) of the RedPitaya computer and FPG board to the use of six channels by multiplexing one of the analoguse imputs. The board also replicates the pins of the RedPitaya board for additional interfaces, for example with our pulse generator (see below) and the bias voltage control of the detectors. A future version implementation of the sorting controll is the making, where we use the RedPitaya X-channel system to add pairs of analogue inputs (and therefore detector inputs) to the capability of the stack, which is faster and more expandable.
 <p align="left">
 <img src="./multiplexer-board/images/mux_brd_icon.jpg" width="400">
 </p>
 
-* The microfluidic chip is positioned with an [open source SQUID microscopy stage](https://github.com/wenzel-lab/squid-motorized-stage), with it's own [stage controller software](https://github.com/wenzel-lab/droplet-sorter-stage-software), of course written in python. In the image on the right, you can see in blue all the pieces in the assembly that are 3d printed.
+Our robotic positioning stage. In the image on the right, you can see in blue all the pieces in the assembly that are 3d printed.
 <p align="left">
 <img src="./images/squid-droplet-cytometer5.jpg" height="500">
 <img src="./images/squid-droplet-cytometer4.jpg" height="500">
 </p>
 
-* And our otptical detection arm assembly is based on the [Open-UC2 3d printed optics cubes](https://github.com/openUC2/UC2-GIT). The modified and new Open-UC2 compatible cubes can be found in the STL folder of this repository, and all modifyable design files are openly availble in the cloud [here on OnShape](https://tinyurl.com/WenzelLabUC2), where you can view, export and copy (to modify) the project designs.
+And our otptical detection arm assembly is based on the [Open-UC2 3d printed optics cubes](https://github.com/openUC2/UC2-GIT). The modified and new Open-UC2 compatible cubes can be found in the STL folder of this repository, and all modifyable design files are openly availble in the cloud [here on OnShape](https://tinyurl.com/WenzelLabUC2), where you can view, export and copy (to modify) the project designs.
 <p align="left">
 <img src="./images/laser_set-up_V6.jpg" width="500">
 <img src="./images/filter_cubes.jpg" width="500">
 </p>
 
-* Droplets are moved using our [microfluidics controller](https://github.com/wenzel-lab/modular-microfluidics-workstation-controller)
+Droplets are moved using our [microfluidics controller](https://github.com/wenzel-lab/modular-microfluidics-workstation-controller)
 <p align="left">
 <img src="./images/sorting-chip.jpg" width="400">
 </p>
-
-* The [high voltage sorting pulse generation board](https://github.com/wenzel-lab/high-voltage-pulse-generator/)
-
-
 
 ## Commercial and OEM components
 
